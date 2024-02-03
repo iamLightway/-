@@ -1,0 +1,899 @@
+﻿body
+{
+    margin: auto;
+    max-width: 100%;
+    padding: 30px 0 !important;
+}
+
+.checkboxspace .from-control input {
+    width: 20px !important;
+    float:right;
+}
+
+input[type=checkbox], input[type=radio] {
+    float: left;
+}
+
+span{
+    text-align:left;
+}
+    span.floatingp{
+        width:100%;
+    }
+
+
+    .datagrid {
+        width: 94%;
+        margin: 0px auto;
+        padding: 40px;
+        border-radius: 8px;
+        text-align: center
+    }
+
+ul.logoutBar li .btn {
+    background-color: transparent !important;
+    color: #4e6b31 !important;
+    border: none !important;
+    text-align: center;
+}
+
+.btnLang {
+    text-align: right
+}
+
+h4{
+    padding: 20px;
+}
+.form-group{
+    font-size:14px;
+}
+.boldText {
+    font-weight: bold;
+}
+label {
+    font-family: cairo !important;
+    display: flow-root !important;
+}
+
+.btn-shjmun {
+    margin: 5px 0 !important;
+    background-color: none !important;
+    border-bottom: 1px solid #ccc !important;
+}
+
+.form-group {
+    font-family: cairo !important;
+}
+
+
+    .form-group lable {
+        font-family: cairo !important;
+    }
+        .form-group lable input {
+            margin: 1px 5px !important;
+            font-family: cairo !important;
+        }
+
+input[type=checkbox], input[type=radio] {
+    margin: 6px 5px !important;
+}
+
+th, td {  
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+}
+
+
+.btn {
+    color: #fff;
+    background-color: #4e6b31 !important;
+    border-color: #4e6b31 !important;
+    margin: 2px 14px;
+    font-size: 15px !important;
+    padding:6px 18px;
+}
+
+.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show > .btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #4e6b31 !important;
+    border-color: #4e6b31 !important;
+}
+
+.frmspace {
+    padding: 6px 8px !important;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom:2px;
+}
+.wd250{
+    width:250px;
+    float:left;
+}
+
+
+.wd200 {
+    width: 200px;
+    float: left;
+}
+
+
+.wd300 {
+    width: 300px;
+    float: left;
+}
+
+
+.wd350 {
+    width: 350px;
+    float: left;
+}
+
+.wd150 {
+    width: 150px;
+}
+.form-group, label{
+    font-size:14px !important;
+}
+
+ul.logoutBar {
+    float: left;
+    margin: 0 0 25px 0;
+    width: 100%;
+}
+
+    ul.logoutBar li {
+        list-style: none;
+        text-decoration: none;
+        float: left
+    }
+
+        ul.logoutBar li:first-child {
+        }
+
+.tablestyle1{
+    float:left;
+    display:block;
+    width:100%;
+}
+.basicfloating {
+    float: left;
+    width: 100%;
+    text-align: left;
+    display: block;
+    margin:10px 0;
+}
+.checkboxspace {
+    margin: 10px 15px;
+    float: left;
+}
+
+    .checkboxspace span{
+        float:left;
+        margin:7px 0;
+        font-weight:bold;
+    }
+h4 {
+    text-align: left;
+    padding: 10px 0 !important;
+}
+.headingtxt{
+    text-align:left;
+}
+.eng-agreement span {
+    float: left;
+}
+span.eng-agreement {
+    float: left;
+    padding: 3px 0px;
+}
+.eng-agreement label {
+    display: contents;
+}
+
+ul.logoutBar li label {
+    margin: 0px 25px 0 0;
+}
+
+
+.datagrid .col-md-12 .form-group label{
+    float:left !important;
+    margin:0 0 5px 0;
+}
+.sectionmiddle {
+    width: 60% !important;
+}
+.pd5{
+    padding: 0 5px;
+}
+
+.pd10 {
+    padding: 0 10px;
+}
+
+.pd15 {
+    padding: 0 15px;
+}
+
+.pdt15 {
+    padding:10px 65px;
+}
+
+.pd20 {
+    padding-left:  20px;
+}
+input {
+    border: 0.1em solid #ccc;
+    border-radius: 0.3em;
+    padding: 8px 12px;
+    width: auto;
+    margin: 0 5px;
+}
+.btn-info {
+    background-color: #4f6a36 !important;
+    border-color: transparent !important;
+}
+/*=====================ERROR====================================*/
+.info,.success,.warning,.eerror,.infoGreen {
+    font-family:Tahoma;
+    font-size:14px;
+    border: 1px solid;
+    margin-bottom:1%;
+    margin-top:1%;
+    background-repeat: no-repeat;
+    /*padding:2% 1% 2% 4%;*/
+    background-position: 95% center;
+    max-width:100% !important;
+    text-align:left
+}
+.info {
+    text-align:center;
+    padding:2% 1% 2% 4%;
+    color: #00529B;
+    background-color: #BDE5F8;
+      background-image: url('/images/info.png');
+}
+
+.infoGreen {
+        text-align:center;
+            padding: 2% 1% 2% 4%;
+   color: #4F8A10;
+   background-color: #DFF2BF;
+      background-image:url('/images/infoGreen.png');
+}
+.success {
+        text-align:center;
+    color: #4F8A10;
+    padding: 2% 1% 2% 4%;
+    background-color: #DFF2BF;
+    background-image: url('/images/success.png');
+}
+.warning {
+   text-align:center;
+    padding:2% 1% 2% 4%;
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('/images/warning.png');
+}
+.eerror {
+    text-align:center;
+    padding:2% 1% 2% 4%;
+    color:#b02828;
+    background-color: #FFBABA;
+        background-image: url('/images/error.png');
+}
+.eerror ul {
+   font-family:Tahoma;
+   padding-top:5px;
+   list-style:none;
+   font-size:12px;
+   color: #D8000C;
+   margin-left:5%;
+}
+.eerror ul li {
+   padding: .5%;
+   list-style:circle
+}
+
+/*.ValidationSummary
+{
+    width: 100%;
+    max-width:100%;
+    height:auto;
+    position:relative
+}*/
+.ValidationSummary table
+{
+    border-collapse: collapse;
+    max-width: 100%;
+    width:100%
+}
+/*==============================RESPONSIVE TABLE=====================*/
+    /*@media only screen and (max-width: 760px), (min-width: 100px) and (max-device-width: 1024px)*/
+
+
+    @media only  screen and (min-width: 100px) and (max-width: 799px)
+
+{
+
+    /*.datagrid tbody
+    {
+         max-width:90% !important;
+    }*/
+    /*.datagrid
+    {
+       margin-right:1%
+    }*/
+        img
+{
+    max-width: 100%;
+}
+
+   .datagrid
+    {
+       font-size:90% !important;
+        width:98%;
+        display: block !important;
+        /*max-width:98%;*/
+        color:gray;    
+    }
+    /*.datagrid, .datagrid table, .datagrid table tbody td, .datagrid tbody, .datagrid tbody tr, .datagrid tbody tr th, .datagrid table tbody tr:last-child td
+    {
+        display: block !important;
+        max-width:98%;
+        color:gray      
+    }*/
+
+    .datagrid tbody tr th
+    {
+         border-color:rgb(136, 119, 90);
+        border: none !important;
+        display: block;
+        background-color: #C2AC7D;
+        color: white;
+        font-family: Tahoma;
+        font-size:100%;  
+        font-weight: bold;
+        /*width:100%*/
+    }
+        .datagrid tbody tr
+        {
+            width: 100%;
+            /*border: 1px solid #ccc;*/
+        }
+
+        .datagrid table tbody td
+        {
+            font-size:90% !important;  
+            /* Behave  like a "row" */
+            border: none !important;
+            /*border-bottom: 1px solid #eee;*/
+            position: initial;
+            max-width: 100%;
+            height: auto;
+            display:block;
+            text-align:left
+        }
+}
+
+    /*======================END OF RESPONSIVE TABLE=================*/
+.Permit
+{
+     background-color: #7A8156;
+     border:solid 1px white;
+     width:50%
+}
+/*====================POPUP=================*/
+
+/*========================TABLE=============================*/
+.datagrid table
+{
+    border-collapse: collapse;
+    max-width: 100%;
+    width:100%;
+    margin:0 0 0 10px;
+    /*margin-right: 60px;*/
+}
+.datagrid
+{
+       /*margin-left:1%;*/
+    background: #F5F2EB;
+    overflow: hidden;
+    border: 1px solid #d4d3d3;
+    /*-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;*/
+    max-width:100%;  
+}
+datagrid table th
+    {
+        padding: 0.8% !important;
+        vertical-align:middle
+                
+    }
+        .datagrid table thead th:first-child
+        {
+            border: none;
+        }
+
+
+.checkboxspace .from-control input{
+    float:left;
+}
+.section{
+    width:100%;
+    padding:20px 0 !important;
+}
+
+.datagrid table tbody td {
+    border-color: rgb(136, 119, 90);
+    padding: 0.5%;
+    color: #7D7D7D;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: cairo;
+    text-align: left;
+}
+
+    .datagrid table tbody th
+    {
+        border-color:rgb(136, 119, 90);
+        background-color: #D0C19F;
+        height:auto;
+    }
+
+
+.datagrid table tbody tc {
+    color: #7D7D7d;
+    font-size: 10px;
+    font-family: cairo;
+}
+
+    /*============================Not Responsive Table=====================================*/
+    .notResdatagrid table
+{
+    border-collapse: collapse;
+    max-width: 100%;
+    width:100%;
+    /*margin-right: 60px;*/
+}
+.notResdatagrid
+{
+       /*margin-left:1%;*/
+    background: #F5F2EB;
+    overflow: hidden;
+    border: 1px solid #d4d3d3;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    max-width:100%;  
+}
+ .datagrid table th
+    {
+        padding: 0.8% !important;
+        text-align:center;
+    }
+
+       .notResdatagrid table thead th:first-child
+        {
+            border: none;
+        }
+
+    .notResdatagrid table tbody td
+    {
+        color: #7D7D7D;
+        font-size:90%;  
+        font-family: Tahoma;
+        text-align:left;
+        padding:3px !important;
+        /*height:100%;*/
+        /*width:50px*/
+}
+
+    .notResdatagrid table tbody th
+    {
+        background-color: #C2AC7D;
+       font-size:100%;  
+        height:auto;
+        padding:5px;
+    }
+
+
+    .notResdatagrid table tbody tc
+    {
+        color: #7D7D7d;
+   font-size:100%;  
+        font-family: Tahoma;
+        
+    }
+
+    /*=============ARTICLE===============*/
+       .datagrid table tbody article p
+    { 
+        font-size: 12px;
+        font-weight:bold;
+        font-family: Tahoma;
+    }
+       .datagrid table tbody article h5
+    { 
+        color: #9F6000;
+        font-size: 12px;
+        font-weight:bold;
+        font-family: Tahoma;
+    }
+
+      .datagrid table tbody article ul >li 
+    { 
+        color: #7D7D7d;
+        font-size: 12px;
+        font-weight:bold;
+        font-family: Tahoma;
+    }
+         .datagrid table tbody article li >a
+    { 
+        color: #c4c4c4;
+        font-size: 12px;
+        font-weight:bold;
+        font-family: Tahoma;
+    }
+                .datagrid table tbody article h3
+    { 
+        color: #9F6000;
+    }
+.nextStep
+{
+    background-color:#d8c191;
+}
+.nextStep h3
+{
+    color: #7D7D7d;
+        font-size: 12px;
+        font-weight:bold;
+        font-family: Tahoma;
+}
+
+.auto-style2
+{
+    padding: 1px 4px;
+    width: 201px;
+}
+
+.auto-style1
+{
+    padding: 1px 4px;
+}
+  /*=============ARTICLE===============*/
+    .datagrid table tbody .alt td
+    {
+        background: #EBEBEB;
+        color: #7D7D7D;
+    }
+    
+    .datagrid table tbody td:first-child
+    {
+        border-left: none;
+    }
+
+.picture
+{
+border: 1px groove;
+width:200px;
+height:200px;
+}
+
+/*=========BUTTONS=====*/
+.button_TermsCo {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.css_button {
+-webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #806b4a;
+  font-family:Tahoma;
+  font-size:12px;
+  background: #ede3d0;
+  padding: 10px 20px 10px 20px;
+  border: solid #b89c69 1px;
+  text-decoration: none;
+    height: 40px;
+}
+.css_button:hover {
+  background: #faf9f7;
+  text-decoration: none;
+}
+.css_button:active
+{
+    position: relative;
+    top: 1px;
+}
+
+.css_button:disabled
+{
+     background: #faf9f7;
+     border: solid #C4C4C4 1px;
+}
+/*===========================================*/
+.clear
+{
+    clear: both;
+}
+/*===================TEXTBOX==================*/
+
+.css_textbox
+{
+border: 1px solid #c4c4c4; 
+font-size: 100%; 
+padding: 4px; 
+color:#225e1e;
+font-family:Tahoma;
+background-color:white;
+} 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.css_drpDownList
+{
+font-size: 13px; 
+padding: 4px; 
+color:#225e1e;
+font-family:Tahoma;
+} 
+
+.css_textbox:focus { 
+    outline: none; 
+    border: 1px solid #d29105; 
+}
+
+.css_textbox:disabled { 
+   background-color:rgba(229,225,216,1);
+}
+/*===================LABELS==================*/
+.lblErrorMsg
+{
+    font-family: "Tahoma";
+    Font-Size:smaller;
+    Color: Red;
+    font-weight: bold;
+}
+.lblShow
+{
+    font-family: "Tahoma";
+   Font-Size: 100%;
+    color: #593900;
+    font-weight: bold;
+}
+
+.lblHeader
+{
+    font-family: "Tahoma";
+   Font-Size: 100%;
+    color:rgb(127, 105, 69);
+    font-weight: bold;
+}
+
+.lblHeaderS
+{
+    font-family: "Tahoma";
+      Font-Size: 80%;
+    color: white;
+    font-weight: bold;
+}
+
+.lblCond
+{
+    font-family:Tahoma;
+    /*text-shadow: 1px -1px 2px rgba(204,182,69,1);*/
+    font-weight: bold;
+    color: #225E1E;
+    /*word-spacing: 2pt;*/
+    font-size: 10px;
+    /*text-align: left;*/
+    /*line-height: 2;*/
+    list-style-type: circle;
+}
+
+.lblPrintShow
+{
+    font-family: 'Times New Roman';
+    Font-Size: 14px;
+    color: #225e1e;
+}
+
+.lblPrintHeader
+{
+    font-family: 'Times New Roman';
+    Font-Size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.lblPrint
+{
+    font-family: 'Times New Roman';
+    Font-Size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.lblBarcode
+{
+    font-family: "IDAutomationHC39M";
+    Font-Size: 20px;
+    color:black;
+}
+
+.lblShowList    
+{
+  color:#9F6000
+}
+/*=============DROPDOWN LIST====================*/
+css_dropdown p {
+	border: 1px solid #c4c4c4; 
+height: auto; 
+width: auto; 
+font-size: 13px; 
+padding: 4px 4px 4px 4px; 
+border-radius: 4px; 
+-moz-border-radius: 4px; 
+-webkit-border-radius: 4px; 
+box-shadow: 0px 0px 8px #d9d9d9; 
+-moz-box-shadow: 0px 0px 8px #d9d9d9;
+-webkit-box-shadow: 0px 0px 8px #d9d9d9;
+}
+css_dropdown:focus { 
+    outline: none; 
+    border: 1px solid #d29105; 
+    box-shadow: 0px 0px 8px #d29105; 
+    -moz-box-shadow: 0px 0px 8px #d29105; 
+    -webkit-box-shadow: 0px 0px 8px #d29105; 
+} 
+
+css_dropdown select {
+      border: 0 !important;  /*Removes border*/
+      -webkit-appearance: none;  /*Removes default chrome and safari style*/
+      -moz-appearance: none; /* Removes Default Firefox style*/
+      background: url('dropdown_arrow.png') no-repeat;  /*Adds background-image*/
+      background-position: 82px 7px;  /*Position of the background-image*/
+      width: 100px; /*Width of select dropdown to give space for arrow image*/
+      text-indent: 0.01px; /* Removes default arrow from firefox*/
+      text-overflow:initial; /*Removes default arrow from firefox*/
+      /*My custom style for fonts*/
+      color: #946e40;
+}
+
+/*===================UPLOAD FILES==============================*/
+.groupBox
+        {
+            margin: 5px 0px;
+            border: solid 1px gray;
+            width: 480px;
+        }
+        .groupBox legend
+        {
+            margin-left: 20px;
+        }
+        .groupBox .fileContainer
+        {
+            height: 40px;
+            padding: 5px 10px;
+            overflow: auto;
+            }
+
+ /*============================WATERMARK=============================*/
+.css_waterMark
+{
+    border: 1px solid #c4c4c4;
+    font-size: 13px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0px 0px 8px #d9d9d9;
+    -moz-box-shadow: 0px 0px 8px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9;
+    color: #c4c4c4;
+    font-family: Tahoma;
+}
+/*=======================*/
+.space
+{
+    height:20px;
+    clear:both;
+}
+
+/*======================= iCons Links*/
+/* unvisited link */
+.icons a:link {
+    font-family:'GE SS Two Light';
+    text-decoration:none;
+    font-size:large;
+    color: #2D5900;
+}
+
+/* visited link */
+.icons a:visited {
+    color: #9F6000;
+}
+
+/* mouse over link */
+.icons a:hover {
+    color: #C2AC7D;
+}
+
+/* selected link */
+.icons a:active {
+    color: #d29105;
+}
+
+
+.icons tbody td
+{
+    background-color:#F5F2EB;
+    border-radius:10px;
+    height:100px
+}
+
+
+#ctl00_CPCenter_ddlManager_ET
+{
+    margin:0 !important;
+    float:right;
+}
+#ctl00_CPCenter_cblWeeklyVac
+{
+    float:right
+}
+
+#ctl00_CPCenter_rbStatus {
+    float: right;
+}
+
+/*===========================Margin==============*/
+.marginRight
+{
+    margin-right:3%
+}
+
+/*===========Animated Text===================*/
+.animated { 
+   -webkit-animation-duration: 1s; 
+   animation-duration: 1s; 
+   -webkit-animation-fill-mode: both; 
+   animation-fill-mode: both; 
+   -webkit-animation-timing-function: ease-out; 
+   animation-timing-function: ease-out; 
+   animation-iteration-count:infinite; 
+   -webkit-animation-iteration-count:infinite; 
+} 
+
+@-webkit-keyframes flash { 
+    0%, 50%, 100% {opacity: 1;} 
+    25%, 75% {opacity: 0;} 
+} 
+@keyframes flash { 
+    0%, 50%, 100% {opacity: 1;} 
+    25%, 75% {opacity: 0;} 
+} 
+.flash { 
+    -webkit-animation-name: flash; 
+    animation-name: flash; 
+}
+
+.pagetitle{
+    float:left
+}

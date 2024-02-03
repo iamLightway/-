@@ -1,0 +1,555 @@
+﻿/*=============== GENERAL ===============*/
+/*@font-face
+{
+    font-family: "GE SS";
+    src: url("../font/GE_SS_Text_Light.eot?")
+     format("eot"),url("../font/GE_SS_Text_Light.woff") format("woff"),url("GE_SS_Text_Light.ttf") format("truetype"),url("../font/GE_SS_Text_Light.svg#GESSTextLight-Light") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background: url(https://portal.shjmun.gov.ae/_layouts/15/Mun16/images/backG.jpg) center center fixed !important;
+    /*background-repeat: repeat-y;*/
+    width: 100%;
+    max-width: 100%;
+    /*margin: 0;
+    padding: 0;*/
+    /*height: 100%;*/
+    background-color: #ece3dc !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-size: cover !important;
+    min-width: 1024px;
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    /* Set up positioning */
+    top: 0;
+    left: 0;
+    font-family:cairo !important;
+}
+
+
+.form-group lable input {
+    margin: 1px 5px !important;
+}
+.form-group lable {
+    font-family: cairo !important;
+    float: right;
+}
+
+    input[type=checkbox], input[type=radio] {
+        margin: 3px 5px !important;
+        float: right;
+    }
+
+    lable{
+        float: right;
+    }
+
+.checkboxspace .from-control input {
+    float: right;
+}
+td {
+    padding: 9px 2px !important;
+}
+
+.aligntxt{
+    text-align:left;
+}
+.form-group {
+    margin-bottom: 1rem;
+    direction: rtl;
+    text-align: right;
+}
+    .form-group input.btn-shjmun {
+        direction: rtl;
+        text-align: right;
+    }
+
+input#ctl00_mainContentPH_btnLogin {
+    direction: rtl;
+    text-align: right;
+    float: right;
+}
+
+span#ctl00_mainContentPH_lblIsoMsg {
+    text-align: right;
+    direction: rtl;
+    float: right;
+}
+/*================ PAGE HEADER ==============*/
+#language {
+    padding: 0.5%;
+    background-color: #5C7533;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.75);
+}
+#language a:link a:visited{
+       color:white !important;
+}
+.top_nav_hotline {
+    float: right;
+    margin: 0;
+    padding: 0.5%;
+    height: 30px;
+}
+
+#page-header {
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+
+/*#header-top
+{
+    margin: 0.5% auto;
+    height: 40px;
+    width: 100%;
+    display: block;
+    max-width: 980px;
+}*/
+
+.header-top {
+    width: 100%;
+    max-width: 1024px;
+    display: block;
+    height: 40px;
+    margin: auto;
+    border-bottom: 1px solid #c8ae86;
+}
+
+.hyperLink {
+    font: bold 11px tahoma;
+    color: #626161;
+}
+
+#header-top ul {
+    padding: 0;
+    list-style-type: none;
+    top: 50%;
+}
+
+    #header-top ul li {
+        display: inline;
+        border-left: #666 1px solid;
+    }
+
+        #header-top ul li a {
+            text-decoration: none;
+            padding: .2em 1em;
+            color: #626161;
+            font: 11px tahoma;
+        }
+
+            #header-top ul li a:hover {
+                color: black;
+            }
+
+.navList {
+    width: 70%;
+    text-align: left;
+    display: inline-block;
+    direction: ltr;
+    float: left;
+}
+
+.navHotline {
+    float: left;
+    width: 30%;
+    display: inline-block;
+}
+
+
+.rightIcon {
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+.leftIcon {
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+#header-middle {
+    /*margin: 0%;
+    padding: 0%;*/
+    display: block;
+    /*width:100%;*/
+    height: 160px;
+    background-image: url(https://portal.shjmun.gov.ae/_layouts/15/1025/styles/images/header.jpg);
+    background-repeat: repeat-x;
+    max-width: 100%;
+    /*text-align:left !important*/
+}
+
+#nav {
+    display: block;
+    width: 100%;
+    height: 35px;
+    background-image: url(https://portal.shjmun.gov.ae/_layouts/15/Mun16/images/nav-green.jpg);
+}
+
+/*================PAGE CONTENTS==============*/
+.page-content {
+    margin-bottom: 20px;
+    outline: 0;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    float: right;
+    padding-right: 1%;
+    background-color: #fff;
+}
+
+#body_content {
+    width: 100%;
+    max-width: 100%;
+    float: right;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    margin: 1% 0% 2% 0;
+}
+/*=================== SIDE NAVIGATION ===============*/
+.nav-content {
+    display: block;
+    width: 28%;
+    /*margin: 4% 1% 0% 0%;*/
+    outline: 0;
+    height: auto;
+    float: right;
+    background: rgb(82,86,59); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(82,86,59,1) 0%, rgba(95,101,69,1) 4%, rgba(103,108,75,1) 8%, rgba(103,108,75,1) 92%, rgba(95,101,69,1) 96%, rgba(82,86,59,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(82,86,59,1)), color-stop(4%,rgba(95,101,69,1)), color-stop(8%,rgba(103,108,75,1)), color-stop(92%,rgba(103,108,75,1)), color-stop(96%,rgba(95,101,69,1)), color-stop(100%,rgba(82,86,59,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(82,86,59,1) 0%,rgba(95,101,69,1) 4%,rgba(103,108,75,1) 8%,rgba(103,108,75,1) 92%,rgba(95,101,69,1) 96%,rgba(82,86,59,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(82,86,59,1) 0%,rgba(95,101,69,1) 4%,rgba(103,108,75,1) 8%,rgba(103,108,75,1) 92%,rgba(95,101,69,1) 96%,rgba(82,86,59,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(82,86,59,1) 0%,rgba(95,101,69,1) 4%,rgba(103,108,75,1) 8%,rgba(103,108,75,1) 92%,rgba(95,101,69,1) 96%,rgba(82,86,59,1) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(82,86,59,1) 0%,rgba(95,101,69,1) 4%,rgba(103,108,75,1) 8%,rgba(103,108,75,1) 92%,rgba(95,101,69,1) 96%,rgba(82,86,59,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52563b', endColorstr='#52563b',GradientType=1 ); /* IE6-9 */
+}
+
+.nav-box {
+    margin: 4% 0% 0% 0%;
+    outline: 0;
+    width: 28%;
+    height: 100%;
+}
+
+.nav, .nav ul, .nav li {
+    list-style: none;
+}
+
+    .nav ul {
+        padding: 0;
+        margin: 0 0 0 18px;
+    }
+
+.nav {
+    padding: 4px;
+    margin: 0px;
+}
+
+    .nav > li {
+        margin: 4px 0;
+    }
+
+        .nav > li li {
+            margin: 2px 0;
+        }
+
+    .nav a {
+        color: white;
+        display: block;
+        outline: none;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+
+    .nav li > a > span {
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    .nav li > a:hover > span {
+        color: #fff;
+    }
+
+    .nav li > a > span:after {
+        content: '\25be';
+    }
+
+    .nav li.open > a > span:after {
+        content: '\25b4';
+    }
+
+    .nav a:hover {
+        background: rgb(243,226,199); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 74%, rgba(182,141,76,1) 95%, rgba(233,212,179,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,226,199,1)), color-stop(74%,rgba(193,158,103,1)), color-stop(95%,rgba(182,141,76,1)), color-stop(100%,rgba(233,212,179,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(243,226,199,1) 0%,rgba(193,158,103,1) 74%,rgba(182,141,76,1) 95%,rgba(233,212,179,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(243,226,199,1) 0%,rgba(193,158,103,1) 74%,rgba(182,141,76,1) 95%,rgba(233,212,179,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(243,226,199,1) 0%,rgba(193,158,103,1) 74%,rgba(182,141,76,1) 95%,rgba(233,212,179,1) 100%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(243,226,199,1) 0%,rgba(193,158,103,1) 74%,rgba(182,141,76,1) 95%,rgba(233,212,179,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */
+        color: #f5f5f5;
+    }
+
+    .nav > li.active > a {
+        color: white;
+        background-color: rgb(62,72,40);
+    }
+
+    .nav li a {
+        font-family: Tahoma;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 2px 10px;
+    }
+
+    .nav > li > a {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 4px 10px;
+    }
+/*=========== FOOTER ===========*/
+#page-footer {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    /*position: absolute;*/
+    bottom: 0;
+}
+
+#f_bottom {
+    background-color: #efe9d9;
+    width: 100%;
+    height: 107px;
+    /*max-height:100%;*/
+    min-height: 107px;
+    bottom: 0 !important;
+    /*position:absolute;*/
+    margin: 0%;
+    padding: 0%;
+    max-width: 1024px;
+    margin-bottom: 0;
+}
+
+.f_top {
+    text-align: center;
+    width: 100%;
+    height: 33px;
+    background: url(https://portal.shjmun.gov.ae/_layouts/15/Mun16/images/nav-brown.jpg) repeat-x;
+    padding: 0%;
+    color: #fff;
+    font-family: 'GE SS Two';
+    font-weight: lighter;
+    font-size: 14px !important;
+    position: relative;
+    margin-bottom: 0;
+}
+
+    .f_top ul {
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        list-style-type: none;
+        margin: 0;
+    }
+
+    .f_top span {
+        position: relative;
+        top: 30%;
+        /*right: 5%;
+        margin: 0;*/
+    }
+
+    .f_top ul li {
+        float: right;
+    }
+
+        .f_top ul li a {
+            color: #fff;
+            margin: 0 5px;
+            text-decoration: none;
+        }
+
+            .f_top ul li a:hover {
+                text-decoration: underline;
+            }
+
+.widget {
+    /*width:15%;*/
+    margin: 0 0 1% 0;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 10px;
+}
+
+    .widget h4 {
+        color: #697047;
+        font-family: 'GE SS Two';
+        font-weight: lighter;
+        font-size: 14px !important;
+        margin-right: 20px;
+    }
+
+    .widget li {
+        list-style: none;
+    }
+
+        .widget li a {
+            color: black;
+            text-decoration: none;
+        }
+
+            .widget li a:hover {
+                text-decoration: none;
+            }
+
+.footer_cup {
+    /*float: right;
+    right: 225px;*/
+    float: right;
+    text-align: center;
+    font-family: 'GE SS Two';
+    font-weight: lighter;
+    font-size: 16px !important;
+    color: #696F47 !important;
+    margin-right: 5%;
+}
+
+
+.social_icons {
+    width: 33%;
+    text-align: center;
+    float: left;
+    position: relative;
+    /*left: 80px;*/
+    color: #696F47;
+    font-size: 16px !important;
+    font-family: 'GE SS Two';
+    font-weight: lighter;
+    margin: 2%;
+}
+
+    .social_icons ul {
+        list-style: none;
+    }
+
+    .social_icons li {
+        float: right;
+        margin: 0 5px;
+    }
+
+li {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.browserSupport {
+    font-family: Tahoma;
+    color: #626161;
+    font-size: 12px;
+    text-align: center;
+    border-top: 3px groove #FFF;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#social {
+    display: inline-block;
+    float: left;
+    width: 35%;
+}
+
+#icons {
+    display: inline-block;
+    float: right;
+}
+
+.widgets_test {
+    display: inline-block;
+    float: right;
+    width: 35%;
+    height: auto;
+}
+/*=============END OF FOOTER===============================*/
+
+/*==================BODY HEADER===========*/
+.insideBodyHeader {
+    width: 95%;
+    margin: auto;
+    padding:2%;
+}
+
+.bodyHeader {
+    width: 97%;
+    min-height: 35px;
+    border-bottom: 1px solid #9d7e3e;
+    margin: 0 auto;
+    width: 100%;
+    font-family: Tahoma;
+    font-size: 16px;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    color: #9d7e3e !important;
+    font-weight: bold;
+}
+
+.linkHeader {
+    font-weight: 100;
+    font-size: 16px;
+    color: #9d7e3e !important;
+    padding:0.5%;
+}
+
+    .linkHeader a:link, a:visited {
+        /*color: #9d7e3e !important;*/
+        text-decoration: none;
+    }
+
+.links {
+    float: right;
+    width: 50%;
+}
+
+#homeIcon {
+    float: right;
+}
+
+.search-field {
+    
+    float: left;
+    padding: 1px;
+    border: 1px solid #c1c1c1;
+    margin: 5px 0 0 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.shj-breadcrumb {
+    width: 97%;
+    min-height: 50px;
+    border-bottom: 1px solid #9d7e3e;
+    padding: 10px 50px 0 0;
+    margin: 0 auto;
+}

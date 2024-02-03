@@ -1,0 +1,599 @@
+
+@media (max-width: 600px) {
+    .tabs .tab a {
+        font-size: 14px !important;
+    }
+
+    .collapse {
+        display: none !important;
+    }
+
+        .collapse ul.justify-content-end {
+            float: none !important;
+            display: inline-block;
+            text-align: center;
+        }
+
+            .collapse ul.justify-content-end li {
+                float: none !important;
+                display: inline-block;
+            }
+
+                .collapse ul.justify-content-end li a {
+                    padding: 0 5px;
+                    font-size: 14px;
+                }
+
+    ul.topNavi {
+        text-align: center;
+    }
+
+        ul.topNavi li {
+            float: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+    .accessibility {
+        display: none;
+    }
+
+    a.logo img {
+        width: 80%;
+    }
+
+    .shjmun-apptab .carousel-inner h2 {
+        font-size: 22px;
+    }
+
+    .section.shjmun-app .shjmun-app-details h4 {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .section.shjmun-app .shjmun-app-details h3 {
+        text-align: center !important;
+    }
+
+    .section.shjmun-app .shjmun-app-details .shjmun-download {
+        text-align: center !important;
+    }
+
+    .ul.tabs-1st li a {
+        font-size: 18px !important;
+    }
+
+    ul.slides li .bgimg {
+        height: 195px !important;
+    }
+
+    ul.slides li .sp-container {
+        display: none;
+    }
+
+    .news .news-slide .news-ticker {
+        width: 70%;
+    }
+
+    .newsTicker-heading {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .news-ticker ul li {
+        font-size: 13px;
+    }
+
+    .section-news .section-header .vticker li div span.date {
+        font-size: 35px;
+    }
+
+    .section-news .section-header .vticker li div span.month {
+        font-size: 20px;
+    }
+
+    .section-news .section-header .vticker li div span.year {
+        font-size: 22px;
+    }
+
+    .list-service ul li {
+        padding: 6px 10px !important;
+    }
+
+    .logo-two {
+        display: none;
+    }
+
+    .timers {
+        display: none;
+    }
+
+    .news {
+        height: 70px;
+    }
+
+    .logo-menu {
+        float: left;
+        text-align: left;
+    }
+
+        .logo-menu a {
+            float: left;
+            text-align: left;
+        }
+
+    ul.sector-cls li {
+        width: 48%;
+    }
+
+    .feedback {
+        right: 10px;
+    }
+
+        .feedback img {
+            /* width: 60%; */
+        }
+
+    .fixed-top {
+        position: relative;
+    }
+
+    .menu-button {
+        right: 30px;
+        top: 25px;
+        display: block;
+    }
+
+    .logo-three {
+        display: none;
+    }
+
+    header {
+        height: auto;
+    }
+
+        header .logo2 {
+            text-align: center;
+        }
+
+        header .topNavi {
+            text-align: center;
+            float: none;
+        }
+
+
+    .accessibility-content {
+        display: none;
+    }
+
+    .najomi {
+        display: none;
+    }
+
+    .najom {
+        display: none;
+    }
+
+    .najom2 {
+        display: none;
+    }
+
+    .news_img {
+        display: block;
+    }
+
+
+    #video-area {
+        height: 258px;
+    }
+
+        #video-area .contents {
+            padding: 10px 0 10px;
+        }
+
+
+
+    .section-news .section-header .vticker {
+        width: 99%;
+    }
+
+
+
+
+        .section-news .section-header .vticker li div.content h4 {
+            font-size: 14px;
+        }
+
+        .section-news .section-header .vticker li {
+            padding: 4px;
+        }
+
+            .section-news .section-header .vticker li div.dmy {
+                display: block;
+                width: 24%;
+            }
+
+            .section-news .section-header .vticker li div.content {
+                width: 74%;
+            }
+
+    .section-news .section-header .vticker {
+        height: 200px;
+    }
+
+    .section-news {
+        min-height: 300px;
+        padding: 15px 0;
+        margin: 20px 0;
+    }
+
+
+
+
+    .ms-webpart-chrome-vertical, .ms-webpart-zone, .ms-webpart-cell-vertical {
+        display: block !important;
+    }
+
+    div#menu-trigger {
+        display: block !important;
+        /* line-height: 34px; */
+        cursor: pointer;
+        padding: 3px;
+        color: #ffffff;
+        font-weight: bold;
+        background: #4e6b31;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border: 1px solid #888;
+        border-radius: 3px;
+        /* margin: 1px 0px; */
+        width: 50px;
+        height: 30px;
+        position: absolute;
+        top: 90px;
+        right: 20px;
+        font-size: 15px;
+        text-align: center;
+        z-index: 999;
+    }
+
+    span.menu-item-text {
+        color: #fff !important;
+    }
+
+    #zz4_RootAspMenu {
+        margin: 0;
+        padding: 60px 0px 0 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99999;
+        /* text-align: center; */
+        /* display: none; */
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        /* border: 1px solid white; */
+        /* border-radius: 6px; */
+        right: 0;
+        height: 100%;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    a.closebtn {
+        color: #fff;
+    }
+
+    .closebtn {
+        position: absolute;
+        top: -200px;
+        left: 5px;
+        font-size: 60px;
+        z-index: 9999999999;
+        display: block;
+    }
+
+
+        .closebtn:after {
+            position: absolute;
+            top: -230px;
+            right: 0px;
+            font-size: 60px;
+            z-index: 9999999999;
+            display: none;
+        }
+
+    /*hook between the menu and nav */
+    #zz4_RootAspMenu:after {
+        content: '';
+        position: absolute;
+        left: 15px;
+        top: -8px;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid white;
+        display: none;
+    }
+
+    /*Set the text color*/
+    #zz4_RootAspMenu li.dynamic span.menu-item-text {
+        color: #fff;
+        padding: 2px 0 2px 0;
+    }
+
+    #zz4_RootAspMenu li > span:first-child {
+        display: block;
+    }
+
+    #zz4_RootAspMenu ul {
+        position: static;
+        visibility: visible;
+        opacity: 1;
+        margin: 0;
+        padding: 4px 10px 4px 0px;
+        background: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: none;
+    }
+
+        #zz4_RootAspMenu ul ul {
+            margin: 0px;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+
+        #zz4_RootAspMenu ul li:hover {
+            border-bottom: none !important;
+        }
+
+    #zz4_RootAspMenu li {
+        position: static;
+        display: block;
+        float: none;
+        border: 0;
+        /*margin: 5px;*/
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding: 0 40px 1px 0;
+    }
+
+    #zz4_RootAspMenu ul li {
+        margin: 0px;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding: 3px 0;
+    }
+
+
+    #zz4_RootAspMenu a {
+        display: block;
+        float: none;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        /*color: #fff;*/
+        font-size: 14px;
+        font-weight: normal;
+        border-bottom: none !important;
+    }
+
+        #zz4_RootAspMenu a:hover {
+            border-bottom: none !important;
+        }
+
+    #zz4_RootAspMenu ul a {
+        padding: 0px 5px 0px 0px;
+        width: auto;
+        font-size: 13px !important;
+        margin: 0;
+        color: black !important;
+        border-bottom: none !important;
+    }
+
+        #zz4_RootAspMenu ul a:hover {
+            background: none;
+            border-bottom: none !important;
+            padding: 0;
+            margin: 0;
+        }
+
+    #zz4_RootAspMenu ul li:first-child a:after, #zz4_RootAspMenu ul ul li:first-child a:after {
+        border: 0;
+    }
+
+    ul .dynamic {
+        visibility: visible !important;
+    }
+
+    ul.footerList li {
+        display: inline-block;
+        float: none;
+        line-height: 25px;
+    }
+
+    li.nav-item {
+        float: none;
+        display: inline-block;
+    }
+
+    .social-icons {
+        display: none;
+    }
+
+    .awardz {
+        display: none;
+    }
+
+    .popup .popup-inner .popup-content a img {
+        width: 120px;
+    }
+
+    .social_basma {
+        display: none;
+    }
+
+        .social_basma img {
+            width: 50%;
+        }
+
+    .najoom {
+        display: none;
+    }
+
+        .najoom img {
+            width: 50%;
+        }
+
+    .social {
+        display: none;
+    }
+
+    .ms-core-listMenu-verticalBox ul.root {
+        border-right: none;
+        padding: 10px 0px 10px 0;
+        display: none;
+    }
+
+    .pgTitle h2 {
+        padding: 10px 0;
+    }
+
+    .ms-rtestate-field {
+        float: right;
+    }
+
+    .logo2 a img {
+    width: 60%;
+}
+
+.section-news .newspanel{
+padding-top:80px !important;
+
+}
+
+
+    #searchbar {
+        height: 45px;
+    }
+
+    .section-news .news_img {
+        position: relative;
+        width: 100%;
+        max-height: 250px;
+    }
+
+        .section-news .news_img .click:hover a {
+            color: #000;
+            font-size: 22px;
+            font-family: 'Cairo', sans-serif;
+            bottom: 0;
+            padding: 53px 0 37px 0;
+            font-weight: bold;
+        }
+
+        .section-news .news_img .click {
+            height: 250px;
+        }
+
+    #rightDisplayNews img {
+        height: 250px;
+    }
+
+    section.vision-mission {
+        padding: 25px 0;
+        height: 300px;
+    }
+
+    .vision-missiontab .carousel-item .mission-details p {
+        font-size: 15px;
+        width: 80%;
+    }
+
+    .vision-missiontab .carousel-item .mission-details h3 {
+        font-size: 26px;
+    }
+
+    section.shjmun-app {
+        padding: 25px 0 0 0;
+    }
+
+        section.shjmun-app .shjmun-app-details {
+            text-align: center;
+        }
+
+            section.shjmun-app .shjmun-app-details h3 {
+                text-align: center;
+                margin: 5px 0;
+                font-size: 20px;
+            }
+
+            section.shjmun-app .shjmun-app-details h4 {
+                text-align: center;
+                font-size: 14px;
+                line-height: 22px;
+            }
+
+            section.shjmun-app .shjmun-app-details .appstore {
+                text-align: center;
+            }
+
+                section.shjmun-app .shjmun-app-details .appstore a {
+                    text-align: center;
+                    float: none;
+                    display: inline-block;
+                }
+
+    .mission-details .app-1 img {
+        width: 25%;
+    }
+
+    #services ul.service-tabs li {
+        padding: 10px 10px;
+        min-height: 140px;
+    }
+
+        #services ul.service-tabs li a h4 {
+            font-size: 15px;
+        }
+
+    ul.footerList li a {
+        font-size: 13px;
+        padding: 0 6px;
+    }
+
+    .emojiFeedback img {
+        width: 90%;
+    }
+
+    .pgContent .ms-rtestate-field p {
+        width: 100% !important;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
